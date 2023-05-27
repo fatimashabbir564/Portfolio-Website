@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima Dev-Portfolio</title>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <center>
+       <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(30, 30, 105);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            font-size: 1.04rem;
+            color: burlywood;
+
+        }
+
+        main hr {
+            border: 0px;
+            background: rgb(30, 30, 105);
+            margin: 60px 84px;
+            height: 2px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 1.4em;
+        }
+
+        .leftSection .btn {
+            margin-top: 10px;
+            padding:12px 6px;
+            background-color: #1e1e69;
+            color: white;
+            border-radius: 6px;
+            border: 2px solid white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 120%;
+            margin-right: 10px;
+            /* background-color: burlywood; */
+        }
+
+        .skin {
+            color: burlywood;
+        }
+
+        #element {
+            color: burlywood;
+        }
+
+        .secondSection {
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 85px 0px;
+            display: flex;
+        }
+
+        .secondSection .box .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 100px;
+        }
+
+        .image-top {
+            width: 32px;
+            position: relative;
+            top: -40px;
+            left: -4px;
+        }
+
+        .vertical-title {
+            position: relative;
+            width: 150px;
+            top: 75px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: burlywood;
+            font-size: 9px;
+            width: 150px;
+
+        }
+
+        footer {
+            background-color: rgb(11, 11, 14);
+            /* height:233px; */
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            /* align-items: center; */
+            padding: 23px 122px;
+            margin-top: 80px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: burlywood;
+            padding: 12px 0px;
+        }
+    </style>
+    </center>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Fatima's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="skin">Fatima Shabbir</span>
+                <div>and I am a Passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="dev.png" alt="" srcset="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="skin">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="HTML1.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        HTML Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit, consectetur sequi
+                        odio eaque numquam iure! Repellat veritatis qui praesentium porro. At, natus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="css_3.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        CSS Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit, consectetur sequi
+                        odio eaque numquam iure! Repellat veritatis qui praesentium porro. At, natus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js2.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        JavaScript Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit, consectetur sequi
+                        odio eaque numquam iure! Repellat veritatis qui praesentium porro. At, natus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="btsp.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        Bootstrap Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit, consectetur sequi
+                        odio eaque numquam iure! Repellat veritatis qui praesentium porro. At, natus!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="php.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        PHP Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit, consectetur sequi
+                        odio eaque numquam iure! Repellat veritatis qui praesentium porro. At, natus!
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Fatima's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Fatimasportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Content Writer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

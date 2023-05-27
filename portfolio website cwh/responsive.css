@@ -1,0 +1,81 @@
+/* Add this CSS code inside <style> tags in the <head> section of your HTML file */
+
+/* Mobile-first responsive styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+    
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .firstSection {
+      flex-direction: column;
+      text-align: center;
+      margin: 40px 0;
+    }
+  
+    .firstSection>div {
+      width: 100%;
+    }
+  
+    .rightSection img {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .secondSection {
+      margin: 40px auto;
+      max-width: 100%;
+      height: auto;
+      padding: 0 10px;
+    }
+  
+    .secondSection .box {
+      width: 100%;
+    }
+  
+    .vertical-title,
+    .vertical-desc {
+      position: static;
+      width: auto;
+      top: auto;
+    }
+  
+    footer .footer {
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Larger screen styles */
+  @media screen and (min-width: 769px) {
+    .firstSection {
+      margin: 80px 0;
+    }
+  
+    .firstSection>div {
+      width: 40%;
+    }
+  
+    .rightSection img {
+      width: 100%;
+      margin-right: 10px;
+    }
+  
+    .secondSection .box {
+      width: 77vw;
+    }
+  
+    .vertical-title,
+    .vertical-desc {
+      position: relative;
+      width: 150px;
+      top: 0;
+    }
+  
+    footer .footer {
+      flex-wrap: nowrap;
+    }
+  }
+  
